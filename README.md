@@ -6,12 +6,6 @@
 
 This repository contains starter code for Fashion Studio Website in ReactJS. <br />
 
-View Demo👇: <br />
-https://wibe-studio.netlify.app/ <br />
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Ra1Fsa9YJCk <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Ra1Fsa9YJCk?style=social)](https://youtu.be/Ra1Fsa9YJCk)<br />
 
 
 ### Images of The Fashion Studio Website:
