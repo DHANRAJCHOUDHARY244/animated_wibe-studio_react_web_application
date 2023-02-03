@@ -1,14 +1,16 @@
 # 🔥Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]
+--------------------------------------------------------------------------------------
+### SEE LIVE:
+https://animated-wibe-studio-react-web-application.pages.dev/
 
-
-
+-------------------------------------------------------------------------------------
 
 
 ### Images of The Fashion Studio Website:
-![HOME](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-Home-Desktop.png)
-![ABOUT](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-About-Desktop.png)
-![HOME](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-Home-Moblie.png)
-![ABOUT](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-About-Mobile.png)
+![HOME](./Wibe-Home-Desktop.png)
+![ABOUT](./Wibe-About-Desktop.png)
+![HOME](./Wibe-Home-Moblie.png)
+![ABOUT](./Wibe-About-Mobile.png)
 
 
 ### Resources Used in This Project
