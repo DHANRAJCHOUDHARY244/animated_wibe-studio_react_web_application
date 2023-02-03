@@ -9,6 +9,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^6.2.8",
+    "gh-pages": "^5.0.0",
     "gsap": "^3.9.1",
     "locomotive-scroll": "^4.1.4",
     "memfs": "^3.4.13",

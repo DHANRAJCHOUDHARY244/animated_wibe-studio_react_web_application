@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { ThemeProvider } from 'styled-components';
 import Home from './sections/Home';
@@ -12,11 +12,24 @@ import ScrollTriggerProxy from './components/ScrollTriggerProxy';
 import Banner from './sections/Banner';
 import NewArrival from './sections/NewArrival';
 import Footer from './sections/Footer';
+import Loder from './components/Loder';
+import { useState } from 'react';
 
 
 
 function App() {
+  const [loaded,setLoaded]=useState(false)
   const containerRef = useRef(null)
+
+useEffect(() => {
+  setLoaded(()=>{
+    setTimeout(() => {
+      setLoaded(true)
+    }, 3000);
+  })
+
+}, []);
+
   return (
     <>
     <GlobalStyles/>
@@ -26,6 +39,12 @@ function App() {
             {
               smooth: true,
               // ... all available Locomotive Scroll instance options 
+            smartphone:{
+              smooth:true,
+            },
+            tablet:{
+              smooth:true,
+            }
             }
           }
           watch={
@@ -37,7 +56,8 @@ function App() {
           }
           containerRef={containerRef}
         >
-          
+        <AnimatePresence> {loaded?null:<Loder/>}</AnimatePresence>
+
         <ScrollTriggerProxy/>
           <AnimatePresence>
           <main className='App' data-scroll-container ref={containerRef}>
